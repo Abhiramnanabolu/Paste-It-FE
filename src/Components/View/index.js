@@ -11,7 +11,7 @@ const View = () => {
   useEffect(() => {
     const fetchPaste = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/pasteit/${id}`);
+        const response = await fetch(`https://pasteitbe.abhiramreddy.shop/pasteit/${id}`);
         if (!response.ok) {
           throw new Error('Paste not found');
         }
