@@ -26,7 +26,7 @@ const Home = () => {
 
   const handleGo = async () => {
     try {
-      const response = await fetch('https://pasteitbe.abhiramreddy.shop/pasteit/add', {
+      const response = await fetch('https://pasteit-be.abhiramreddy.in/pasteit/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
